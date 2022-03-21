@@ -1,0 +1,153 @@
+body {
+    background-image: linear-gradient(#000428 , #004e92
+    );
+    margin-top: -20px;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100% !important;
+    background-size: cover  !important;
+    background-position: center;
+    padding-bottom: 120px ;
+    
+}
+
+
+div.cover-all {
+    border: 0px solid red;
+    margin: 100px 3% 0% 3%;
+    min-width: 520px;
+    background-image: linear-gradient(356deg, #2d3436 0%, #000000 60%);
+    min-height:600px;
+    padding: 10px 0px 30px 0px !important; 
+    border-radius: 15px;
+    
+}
+
+.todo-form {   
+min-width: 490px !important;
+width: 100%;
+text-align: center;
+padding: 0px 25px 0px 0px;
+
+}
+
+input.todo-input {
+    
+    border: 3px solid #2193b0
+    !important;
+    padding: 10px 30px 10px 20px !important;
+    width: 65% !important;
+   margin-right: -2px !important;
+   border-radius: 5px !important;
+   color: white!important;
+   margin-left: 3%  !important;
+    
+}
+
+input.todo-input::placeholder {
+  
+}
+
+@media only screen and (min-width: 992px)  {
+   
+
+    div.cover-all {
+        
+        margin: 100px 20% 0% 20% !important;
+      
+    }
+    
+}
+
+.form-header {
+    color: white;
+    opacity: 0.73;
+    font-size: 30px;
+    margin-bottom: 45px;
+    
+}
+
+.button-enter {
+    background-image: linear-gradient(#2193b0 ,#11cea2);
+    width: 100px;
+    border-radius: 0px !important;
+    border: 0px !important;
+    border-top-right-radius: 10px !important;
+    height: 45px;
+}
+
+.todo-row {
+    
+    width: 92%;
+    margin: 0% 4% 0% 4%;
+    border-radius: 10px;
+    
+    
+    
+}
+
+.todo-row:nth-child(4n+2) {
+    background: linear-gradient(405deg ,#19547b  20%, #3a1c71 90%
+    );
+    
+    
+    
+}
+
+.todo-row:nth-child(4n+3) {
+    background: linear-gradient(405deg ,orange 20%, #ec6f66 90%);
+    
+    
+}
+
+.todo-row:nth-child(4n) {
+    background: linear-gradient(405deg ,#22cea2 20%,#b06ab3  90%
+    );
+    
+    
+}
+
+.todo-row:nth-child(4n+1) {
+    background: linear-gradient(405deg ,#243b55 20%, grey 90%);
+    
+    
+}
+
+
+
+
+
+div.todo-contents {
+    width:100% !important;
+    margin-top: 30px;
+    
+    z-index: 1000;
+    color: white;
+    font-size: 20px !important;
+    border-radius: 10px;
+   
+    padding: 15px 5px 15px 10px;
+}
+
+div.todo-text {
+    margin: 0px 3px 0px 3px;
+    word-wrap: break-word;
+   
+   
+}
+
+span.react-icons {
+    float: right;
+   
+
+}
+
+.remove-icon {
+    margin: 0px 10px -5px 0px;
+    font-size: 25px;
+}
+
+.edit-icon {
+    margin: 0px 7px -4px 0px;
+    font-size: 26px;
+}
